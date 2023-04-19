@@ -1,6 +1,6 @@
 import java.util.RandomAccess;
 
-public class String tipoDeAlimentacao(String alimento){
+public class tipoDeAlimentacao(String alimento){
 private boolean racao equals false;
 private boolean soro equals false;
 private boolean outro equals false;

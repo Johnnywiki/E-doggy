@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class String prescricaoDeAlimentacao(){
+public class prescricaoDeAlimentacao(){
     private String prescricaoDeRacao = "A ração para o animal consiste de nutrientes essenciais para seu sustento durante o dia!";
     private String prescricaoDeSoro = "O soro conta com todas as vitaminas necessarias para uma recuperação eficaz!";
     private String prescricaoDeOutro = "Esta alimentação é unica para o animal requisitado! Entre em contato com o cuidador para a bula";
