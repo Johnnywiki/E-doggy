@@ -1,0 +1,24 @@
+public class RegistroReservaFilhotes {
+    
+    private Map<String, String> reservas; // Mapa para armazenar as reservas, com chave = nome do comprador e valor = nome do filhote
+    
+    public RegistroReservaFilhotes() {
+        reservas = new HashMap<>();
+    }
+    
+    public void adicionarReserva(String comprador, String filhote) {
+        reservas.put(comprador, filhote);
+        System.out.println("Reserva adicionada: " + comprador + " -> " + filhote);
+    }
+    
+    public void exibirReservas() {
+        if (reservas.isEmpty()) {
+            System.out.println("Não há reservas registradas.");
+        } else {
+            System.out.println("Reservas registradas:");
+            for (Map.Entry<String, String> reserva : reservas.entrySet()) {
+                System.out.println(reserva.getKey() + " -> " + reserva.getValue());
+            }
+        }
+    }
+}
