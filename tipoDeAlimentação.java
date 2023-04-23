@@ -5,7 +5,7 @@ private boolean racao equals false;
 private boolean soro equals false;
 private boolean outro equals false;
 
-if(alimento == null) { return System.out.println("Alimento não foi inserido!");
+if(alimento equals null) { return System.out.println("Alimento não foi inserido!");
     else if(alimento.equals("racao")){
         racao equals true;
         return System.out.println("A alimentação do animal consiste de " + alimento);
