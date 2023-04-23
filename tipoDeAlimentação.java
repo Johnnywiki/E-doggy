@@ -1,5 +1,3 @@
-import java.util.RandomAccess;
-
 public class tipoDeAlimentacao(String alimento){
 private boolean racao equals false;
 private boolean soro equals false;
