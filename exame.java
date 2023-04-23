@@ -1,4 +1,4 @@
 public class exame(){
-    int idade;
-    int id;
+    private int idade;
+    private int id;
 }
